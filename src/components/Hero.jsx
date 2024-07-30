@@ -23,10 +23,10 @@ function Hero() {
         style={divStyle} id='hero'
     >
         <div className='flex flex-col justify-center content-center py-5 text-center mt-20'>
-            <h2 className=' text-sm text-white '>
-                Hi, my name is <br /> <span className='text-5xl md:text-8xl text-blue-500 font-extrabold'>Victor Jack</span>
+            <h2 className='text-sm text-white '>
+                Hi, my name is <br /> <span className='text-4xl md:text-8xl text-blue-500 font-extrabold'>Victor Jack</span>
             </h2>
-            <p className='text-white mt-2 w-full lg:w-1/2 mx-auto'>
+            <p className='text-white mt-2 w-full lg:w-1/2 mx-auto text-xs lg:text-base'>
                 I am a software Engineer, a true definition of a Philomath and a Tech addict. I strive to bring innovative ideas to life. My goal is to craft seamless digital experiences that not only meet but exceed client expectations.
             </p>
             <div className='flex justify-center content-center p-5 gap-5 w-1/2 mx-auto mt-10'>
