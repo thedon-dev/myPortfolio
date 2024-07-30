@@ -15,7 +15,6 @@ function Hero() {
         backgroundSize: "cover",
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
-        backgroundAttachment: 'fixed',
     }
     
   return (
