@@ -6,6 +6,7 @@
 
 * {
     font-family: "Roboto Mono", monospace;
+    scroll-behavior: smooth;
 }
 
 body {
