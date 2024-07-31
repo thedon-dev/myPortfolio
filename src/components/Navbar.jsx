@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div className='w-full absolute py-3 px-[7%] z-20'>
         <div className='rounded-xl w-full p-3 transition-all duration-300 group flex justify-center'>
-            <a href="#hero" className='p-2 font-bold text-blue-500'>THEDON<span className='text-white'>.DEV</span></a>  
+            <a href="#hero" className='p-2 font-bold text-blue-500 text-start'>THEDON<span className='text-white'>.DEV</span></a>  
 
             {/* <div className='hidden group-hover:block content-center ms-[200px] transition-all duration-300'>
               <ul className='flex gap-10 text-sm font-bold text-black justify-center content-center'>

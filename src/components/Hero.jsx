@@ -3,10 +3,11 @@ import Pic1 from '../assets/Pic1.jpeg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDownLong } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
-import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faTiktok } from '@fortawesome/free-brands-svg-icons'
 import { faXTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 function Hero() {
 
@@ -33,7 +34,7 @@ function Hero() {
                     <FontAwesomeIcon icon={faFacebook} size='' className='text-gray-900 hover:cursor-pointer w-[20px] h-[20px] group-hover:w-[30px] group-hover:h-[30px] my-auto group-hover:text-blue-800 transition-all duration-300' color=''/>
                 </a>
                 <a href="" className='hover:-mt-2 group'>
-                    <FontAwesomeIcon icon={faInstagram} size='lg' className='text-gray-900 hover:cursor-pointer w-[20px] h-[20px] group-hover:w-[30px] group-hover:h-[30px] group-hover:text-red-400 my-auto transition-all duration-300' color=''/>
+                    <FontAwesomeIcon icon={faGithub} size='lg' className='text-gray-900 hover:cursor-pointer w-[20px] h-[20px] group-hover:w-[30px] group-hover:h-[30px] group-hover:text-white my-auto transition-all duration-300' color=''/>
                 </a>
                 <a href="" className='hover:-mt-2 group'>
                     <FontAwesomeIcon icon={faTiktok} size='lg' className='text-gray-900 hover:cursor-pointer w-[20px] h-[20px] group-hover:w-[30px] group-hover:h-[30px] group-hover:text-red-500 my-auto transition-all duration-300' color=''/>
@@ -43,6 +44,9 @@ function Hero() {
                 </a>
                 <a href="" className='hover:-mt-2 group'>
                     <FontAwesomeIcon icon={faLinkedin} size='lg' className='text-gray-900 hover:cursor-pointer w-[20px] h-[20px] group-hover:w-[30px] group-hover:h-[30px] group-hover:text-blue-500 my-auto transition-all duration-300' color=''/>
+                </a>
+                <a href="" className='hover:-mt-2 group'>
+                    <FontAwesomeIcon icon={faYoutube} size='lg' className='text-gray-900 hover:cursor-pointer w-[20px] h-[20px] group-hover:w-[30px] group-hover:h-[30px] group-hover:text-red-700 my-auto transition-all duration-300' color=''/>
                 </a>
             </div>
             <div className='w-full mt-10 flex justify-center'>
