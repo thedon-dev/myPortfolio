@@ -27,7 +27,7 @@ function About() {
                 <br />
                 <div>
                     <p>Technologies I use: </p>
-                    <div className='grid grid-cols-4 gap-y-10 mt-10'>
+                    <div className='grid grid-cols-3 md:grid-cols-4 gap-y-10 mt-10'>
 
                         {languages.map((language) => (
                             <Language img={language.imgUrl} name={language.name}/>
@@ -38,7 +38,7 @@ function About() {
         </div>
         <div className='grid place-content-center px-10'>
             <div className='border-4 rounded-lg border-dotted border-white p-3'>
-                <div className='h-[250px] w-[250px] lg:h-[500px] lg:w-[500px] overflow-hidden group'>
+                <div className='h-[300px] w-[300px] lg:h-[500px] lg:w-[500px] overflow-hidden group'>
                     <img src={Pic4} alt="" className='group-hover:scale-125 -translate-y-10 lg:-translate-y-20 transition-all duration-300'/>
                 </div>
             </div>
