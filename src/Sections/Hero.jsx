@@ -23,38 +23,38 @@ function Hero() {
     {
       icon: faFacebook,
       color: "group-hover:text-blue-800",
-      link: "",
+      link: "https://www.facebook.com/victor.jack.7351",
     },
     {
       icon: faGithub,
       color: "group-hover:text-white",
-      link: "",
+      link: "https://github.com/thedon-dev",
     },
     {
       icon: faTiktok,
       color: "group-hover:text-red-500",
-      link: "",
+      link: "https://www.tiktok.com/@victorwritecodes",
     },
     {
       icon: faXTwitter,
       color: "group-hover:text-white",
-      link: "",
+      link: "https://x.com/iamvictorjack",
     },
     {
       icon: faLinkedin,
       color: "group-hover:text-blue-500",
-      link: "",
+      link: "https://www.linkedin.com/in/jackvictoradokiye/",
     },
     {
       icon: faYoutube,
       color: "group-hover:text-red-700",
-      link: "",
+      link: "https://www.youtube.com/@iamvictorjack",
     },
   ];
 
   return (
     <div
-      className="flex flex-col justify-center min-h-[100vh] gap-4 py-10 px-10 md:px-40"
+      className="flex relative flex-col justify-center min-h-[100vh] gap-4 py-10 px-10 md:px-40"
       style={divStyle}
       id="hero"
     >
