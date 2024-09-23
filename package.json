@@ -18,12 +18,14 @@
     "animate.css": "^4.1.1",
     "antd": "^5.19.3",
     "aos": "^2.3.4",
+    "clsx": "^2.1.1",
     "font-awesome": "^4.7.0",
-    "framer-motion": "^11.3.19",
+    "framer-motion": "^11.3.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1",
-    "simple-icons": "^13.3.0"
+    "simple-icons": "^13.3.0",
+    "tailwind-merge": "^2.4.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

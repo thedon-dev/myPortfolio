@@ -1,0 +1,41 @@
+import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
+
+const Project = ({ data, index }) => {
+  return (
+    <div
+      className={`w-full flex ${
+        index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
+      } mt-32 gap-10 flex-col`}
+    >
+      <div className="flex flex-col gap-10 lg:w-1/2 ">
+      <div className="flex content-center">
+      <p className="text-xs text-blue-500 font-extrabold flex flex-col justify-end me-1">{index + 1}.</p>
+      <h1 className="font-bold text-2xl">{data.name}</h1>
+      </div>
+        
+        <p className="text-sm border-2 border-yellow-400 rounded-md p-5">
+          {data.description}
+        </p>
+        <div className="text-xs flex gap-5">
+          {data.technologies.map((tech) => (
+            <p>{tech}</p>
+          ))}
+        </div>
+        <a
+          href={data.link}
+          className="border rounded-full py-3 px-4 w-fit text-xs flex gap-2 content-center"
+        >
+          Visit Site
+          <FontAwesomeIcon icon={faArrowRightLong} className="my-auto" />
+        </a>
+      </div>
+      <div className="lg:w-3/5 border rounded-lg overflow-hidden">
+        <img src={data.image} alt="" className="w-full"/>
+      </div>
+    </div>
+  );
+};
+
+export default Project;

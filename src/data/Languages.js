@@ -20,8 +20,12 @@ const languages = [
         imgUrl: 'https://cdn.simpleicons.org/javascript'
     },
     {
-        name: 'React',
+        name: 'ReactJS',
         imgUrl: 'https://cdn.simpleicons.org/react'
+    },
+    {
+        name: 'NextJS',
+        imgUrl: 'https://cdn.simpleicons.org/nextdotjs'
     },
     {
         name: 'Python',

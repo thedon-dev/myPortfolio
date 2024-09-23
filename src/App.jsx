@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import About from './components/About'
-import Experience from './components/Experience'
-import Projects from './components/Projects'
+import Hero from './Sections/Hero'
+import About from './Sections/About'
+import Experience from './Sections/Experience'
+import Projects from './Sections/Projects'
+import Gallery from './Sections/Gallery'
+import Contact from './Sections/Contact'
 
 function App() {
 
@@ -12,8 +14,10 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      {/* <Experience /> */}
-      {/* <Projects /> */}
+      <Experience />
+      <Projects />
+      <Gallery />
+      <Contact />
     </>
   )
 }

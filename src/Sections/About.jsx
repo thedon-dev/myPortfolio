@@ -1,8 +1,8 @@
 import React from 'react'
-import Pic4 from '../assets/Pic4.jpeg'
+import Pic4 from '../assets/Pic4.jpg'
 import '../Styles/About.css'
 import languages from '../data/Languages'
-import Language from './Language'
+import Language from '../components/Language'
 
 function About() {
   return (
@@ -29,8 +29,8 @@ function About() {
                     <p>Technologies I use: </p>
                     <div className='grid grid-cols-3 md:grid-cols-4 gap-y-10 mt-10'>
 
-                        {languages.map((language) => (
-                            <Language img={language.imgUrl} name={language.name}/>
+                        {languages.map((language, index) => (
+                            <Language key={index} img={language.imgUrl} name={language.name}/>
                         ))}
                     </div>
                 </div>
