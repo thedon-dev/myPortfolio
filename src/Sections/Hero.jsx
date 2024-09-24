@@ -43,7 +43,7 @@ function Hero() {
     {
       icon: faLinkedin,
       color: "group-hover:text-blue-500",
-      link: "https://www.linkedin.com/in/jackvictoradokiye/",
+      link: "https://www.linkedin.com/in/victorjackadokiye?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     },
     {
       icon: faYoutube,
