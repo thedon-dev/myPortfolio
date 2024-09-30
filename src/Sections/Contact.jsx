@@ -16,7 +16,7 @@ const Contact = () => {
 
       <div className="grid place-content-center">
         <a
-          href=""
+          href="https://wa.me/2349057696490"
           className="my-10 px-4 py-3 mx-auto font-semibold text-lg rounded border border-blue-500 hover:bg-blue-500 "
         >
           Text me!
