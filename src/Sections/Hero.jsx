@@ -99,7 +99,7 @@ function Hero() {
 
       <div className="flex flex-col justify-end top-[40%] absolute bottom-0 left-0 lg:left-10">
         <p className="text-blue-500 rotate-90 mb-20 md:mb-28 text-xs md:text-base">
-          vjack878@gmail.com
+          viktoh7351@gmail.com
         </p>
         <div className="w-[1px] h-[50px] md:h-[200px] border border-gray-900 mx-auto "></div>
       </div>
