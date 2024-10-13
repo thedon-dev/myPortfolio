@@ -3,7 +3,7 @@ import CV from "../VictorJack_CV.pdf";
 
 function Navbar() {
   return (
-    <div className="w-full absolute py-3 px-[7%] z-20">
+    <div className="w-full absolute py-3 px-[5%] lg:px-[7%] z-20">
       <div className="rounded-xl w-full p-3 transition-all duration-300 group flex justify-between">
         <a
           href="/"

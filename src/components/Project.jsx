@@ -10,15 +10,19 @@ const Project = ({ data, index }) => {
       } mt-32 gap-10 flex-col`}
     >
       <div className="flex flex-col gap-10 lg:w-1/2 ">
-      <div className="flex content-center">
-      <p className="text-xs text-blue-500 font-extrabold flex flex-col justify-end me-1">{index + 1}.</p>
-      <h1 className="font-bold text-2xl">{data.name}</h1>
-      </div>
-        
+        <div className="flex content-center">
+          <p className="text-xs text-blue-500 font-extrabold flex flex-col justify-end me-1">
+            {index + 1}.
+          </p>
+          <h1 className="font-bold text-2xl">{data.name}</h1>
+        </div>
+
         <p className="text-sm border-2 border-yellow-400 rounded-md p-5">
           {data.description}
         </p>
-        <div className="text-xs flex gap-5">
+        
+        <div className="text-sm flex gap-5">
+        <p className="">Technologies used:</p>
           {data.technologies.map((tech) => (
             <p>{tech}</p>
           ))}
@@ -32,7 +36,7 @@ const Project = ({ data, index }) => {
         </a>
       </div>
       <div className="lg:w-3/5 border rounded-lg overflow-hidden">
-        <img src={data.image} alt="" className="w-full"/>
+        <img src={data.image} alt="" className="w-full" />
       </div>
     </div>
   );

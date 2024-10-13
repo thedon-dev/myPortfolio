@@ -26,8 +26,8 @@ function Experience() {
               <div
                 key={index}
                 className={`${
-                  currentWork == index ? "border-blue-500" : "border-gray-700"
-                } border-l-2 hidden lg:flex p-4 cursor-pointer gap-3 content-center`}
+                  currentWork == index ? "border-blue-500" : "border-gray-300"
+                } border-l-4 hidden lg:flex p-4 cursor-pointer gap-3 content-center`}
                 onClick={() => setCurrentWork(index)}
               >
                 <p className="font-semibold text-sm text-white w-[85%]">

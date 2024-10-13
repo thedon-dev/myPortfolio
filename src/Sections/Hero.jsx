@@ -65,7 +65,7 @@ function Hero() {
             Victor Jack
           </span>
         </h2>
-        <p className="text-white mt-2 w-full lg:w-1/2 mx-auto text-xs lg:text-base">
+        <p className="text-white mt-2 w-full lg:w-1/2 mx-auto text-5xl lg:text-base">
           I am a software Engineer, a true definition of a Philomath and a Tech
           addict. I strive to bring innovative ideas to life. My goal is to
           craft seamless digital experiences that not only meet but exceed
