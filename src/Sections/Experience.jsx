@@ -15,7 +15,7 @@ function Experience() {
       <div className="text-white">
         <div className="flex content-center justify-start">
           <div className="w-[80px] h-[1px] border border-blue-400 my-auto me-5"></div>
-          <h4 className="text-blue-500 text-lg lg:text-xl">Experience</h4>
+          <h4 className="text-blue-500 text-lg lg:text-5xl">Experience</h4>
         </div>
       </div>
 

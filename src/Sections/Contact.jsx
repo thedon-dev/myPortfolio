@@ -5,7 +5,7 @@ const Contact = () => {
     <div className="text-white w-fll lg:w-2/3 mx-auto px-[8%]">
       <div className="flex content-center justify-center px-[8%] my-10">
         <div className="w-[80px] h-[1px] border border-blue-500 my-auto me-5"></div>
-        <h4 className="text-blue-500 text-lg lg:text-xl">Contact</h4>
+        <h4 className="text-blue-500 text-lg lg:text-5xl">Contact</h4>
       </div>
       <h1 className="text-4xl font-semibold text-center">Get in Touch</h1>
       <p className="text-center mt-5">

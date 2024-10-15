@@ -26,7 +26,7 @@ function Gallery() {
     <div className="w-full min-h-[100vh] bg-black text-white py-10 border-red-500">
       <div className="flex content-center justify-start px-[8%]">
         <div className="w-[80px] h-[1px] border border-blue-500 my-auto me-5"></div>
-        <h4 className="text-blue-500 text-lg lg:text-xl">Gallery</h4>
+        <h4 className="text-blue-500 text-lg lg:text-5xl">Gallery</h4>
       </div>
 
       <div className="flex flex-col gap-4 mt-20">

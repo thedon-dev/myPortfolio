@@ -22,32 +22,26 @@ function Hero() {
   const links = [
     {
       icon: faFacebook,
-      color: "group-hover:text-blue-800",
       link: "https://www.facebook.com/victor.jack.7351",
     },
     {
       icon: faGithub,
-      color: "group-hover:text-white",
       link: "https://github.com/thedon-dev",
     },
     {
       icon: faTiktok,
-      color: "group-hover:text-red-500",
       link: "https://www.tiktok.com/@victorwritecodes",
     },
     {
       icon: faXTwitter,
-      color: "group-hover:text-white",
       link: "https://x.com/iamvictorjack",
     },
     {
       icon: faLinkedin,
-      color: "group-hover:text-blue-500",
       link: "https://www.linkedin.com/in/victorjackadokiye?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     },
     {
       icon: faYoutube,
-      color: "group-hover:text-red-700",
       link: "https://www.youtube.com/@iamvictorjack",
     },
   ];
@@ -59,13 +53,13 @@ function Hero() {
       id="hero"
     >
       <div className="flex flex-col justify-center content-center py-5 text-center mt-20">
-        <h2 className="text-sm text-white ">
+        <h2 className="text-lg text-white ">
           Hi, my name is <br />{" "}
-          <span className="text-4xl md:text-9xl text-blue-500 font-extrabold">
+          <span className="text-6xl lg:text-[10rem] text-blue-500 font-extrabold">
             Victor Jack
           </span>
         </h2>
-        <p className="text-white mt-2 w-full lg:w-1/2 mx-auto text-5xl lg:text-base">
+        <p className="text-white mt-2 w-full lg:w-1/2 mx-auto text-base lg:text-lg">
           I am a software Engineer, a true definition of a Philomath and a Tech
           addict. I strive to bring innovative ideas to life. My goal is to
           craft seamless digital experiences that not only meet but exceed
@@ -77,7 +71,7 @@ function Hero() {
               <FontAwesomeIcon
                 icon={link.icon}
                 size="lg"
-                className={`text-gray-900 hover:cursor-pointer w-[20px] h-[20px] group-hover:w-[30px] group-hover:h-[30px] my-auto ${link.color} transition-all duration-300`}
+                className={`hover:cursor-pointer w-[20px] h-[20px] group-hover:w-[30px] group-hover:h-[30px] my-auto text-blue-500 transition-all duration-300`}
                 color=""
               />
             </a>
@@ -98,7 +92,7 @@ function Hero() {
       </div>
 
       <div className="flex flex-col justify-end top-[40%] absolute bottom-0 left-0 lg:left-10">
-        <p className="text-blue-500 rotate-90 mb-20 md:mb-28 text-xs md:text-base">
+        <p className="text-blue-500 rotate-90 mb-20 md:mb-28 text-xs md:text-xl">
           viktoh7351@gmail.com
         </p>
         <div className="w-[1px] h-[50px] md:h-[200px] border border-gray-900 mx-auto "></div>
