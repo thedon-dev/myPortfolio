@@ -9,7 +9,7 @@ function Navbar() {
           href="/"
           className="p-2 font-bold text-xl lg:text-3xl text-blue-500 text-start hover:scale-125 transition-all duration-300 ease-in"
         >
-          THEDON<span className="text-white underline">.DEV</span>
+          THEDON<span className="text-yellow-400 underline">.DEV</span>
         </a>
 
         <div className="flex gap-3">

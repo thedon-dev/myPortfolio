@@ -13,7 +13,7 @@ import {
 
 function Hero() {
   const divStyle = {
-    backgroundImage: `linear-gradient( 0deg, rgba(34, 33, 34, 0.7), rgba(30, 30, 31, 0.6)), url(${Pic1})`,
+    backgroundImage: `linear-gradient( 0deg, rgba(34, 33, 34, 0.8), rgba(30, 30, 31, 0.8)), url(${Pic1})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
@@ -48,7 +48,7 @@ function Hero() {
 
   return (
     <div
-      className="flex relative flex-col justify-center min-h-[100vh] gap-4 py-10 px-10 md:px-40"
+      className="flex relative flex-col justify-center min-h-[100vh] gap-4 pt-20 px-10 md:px-40"
       style={divStyle}
       id="hero"
     >
@@ -95,7 +95,7 @@ function Hero() {
         <p className="text-blue-500 rotate-90 mb-20 md:mb-28 text-xs md:text-xl">
           viktoh7351@gmail.com
         </p>
-        <div className="w-[1px] h-[50px] md:h-[200px] border border-gray-900 mx-auto "></div>
+        <div className="w-[1px] h-[50px] md:h-[200px] border border-blue-500 mx-auto "></div>
       </div>
     </div>
   );
