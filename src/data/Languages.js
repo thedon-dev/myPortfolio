@@ -28,6 +28,10 @@ const languages = [
         imgUrl: 'https://cdn.simpleicons.org/nextdotjs'
     },
     {
+        name: 'ExpressJS',
+        imgUrl: 'https://cdn.simpleicons.org/express'
+    },
+    {
         name: 'Python',
         imgUrl: 'https://cdn.simpleicons.org/python'
     },
@@ -39,20 +43,10 @@ const languages = [
         name: 'GitHub',
         imgUrl: 'https://cdn.simpleicons.org/github/white'
     },
-    // {
-    //     name: 'Tailwind',
-    //     imgUrl: 'https://cdn.simpleicons.org/git'
-    // },
-    {
-        name: 'Axios',
-        imgUrl: 'https://cdn.simpleicons.org/axios'
-    },
     {
         name: 'Godot',
         imgUrl: 'https://cdn.simpleicons.org/godotengine'
-    },
-    
-    
+    }, 
 ]
 
 export default languages
