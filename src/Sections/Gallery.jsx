@@ -9,7 +9,7 @@ function Gallery() {
   const generateRandomNumbers = () => {
     const numbers = new Set(); 
     while (numbers.size < 6) {
-      let randomNumber = Math.floor(Math.random() * 13);
+      let randomNumber = Math.floor(Math.random() * 16);
       
       numbers.add(randomNumber); 
     }

@@ -1,5 +1,5 @@
 import React from 'react'
-import Pic4 from '../assets/Pic4.jpg'
+import Pic14 from '../assets/Pic14.jpg'
 import '../Styles/About.css'
 import languages from '../data/Languages'
 import Language from '../components/Language'
@@ -39,7 +39,7 @@ function About() {
         <div className='grid place-content-center px-10'>
             <div className='border-4 rounded-lg border-dotted border-white p-3'>
                 <div className='h-[300px] w-[300px] lg:h-[500px] lg:w-[500px] overflow-hidden group'>
-                    <img src={Pic4} alt="" className='group-hover:scale-125 -translate-y-10 lg:-translate-y-20 transition-all duration-300'/>
+                    <img src={Pic14} alt="" className='group-hover:scale-125 -translate-y-10 lg:-translate-y-20 transition-all duration-300'/>
                 </div>
             </div>
             

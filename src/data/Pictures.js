@@ -11,6 +11,10 @@ import Pic10 from '../assets/Pic10.jpg'
 import Pic11 from '../assets/Pic11.jpg'
 import Pic12 from '../assets/Pic12.jpg'
 import Pic13 from '../assets/Pic13.jpg'
+import Pic14 from '../assets/Pic14.jpg'
+import Pic15 from '../assets/Pic15.jpg'
+import Pic16 from '../assets/Pic16.jpg'
+
 
 const pictures = [
     Pic1,
@@ -26,6 +30,10 @@ const pictures = [
     Pic11,
     Pic12,
     Pic13,
+    Pic14,
+    Pic15,
+    Pic16,
+
 ]
 
 

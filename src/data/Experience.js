@@ -20,7 +20,7 @@ const ExperienceDetails = [
         time: [
             {
                 from: 'June 2024',
-                to: 'PRESENT'
+                to: 'December 2024'
             }
         ],
         activities: [
