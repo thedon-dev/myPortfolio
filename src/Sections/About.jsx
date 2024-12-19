@@ -3,6 +3,9 @@ import Pic14 from '../assets/Pic14.jpg'
 import '../Styles/About.css'
 import languages from '../data/Languages'
 import Language from '../components/Language'
+import AOS from "aos"
+
+AOS.init()
 
 function About() {
   return (

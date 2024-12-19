@@ -20,11 +20,11 @@ const Project = ({ data, index }) => {
         <p className="text-sm border-2 border-yellow-400 rounded-md p-5">
           {data.description}
         </p>
-        
-        <div className="text-sm flex gap-5">
-        <p className="">Technologies used:</p>
-          {data.technologies.map((tech) => (
-            <p>{tech}</p>
+
+        <div className="text-sm flex flex-wrap gap-5">
+          <p className="">Technologies used:</p>
+          {data.technologies.map((tech, index) => (
+            <p key={index}>{tech}</p>
           ))}
         </div>
         <a
