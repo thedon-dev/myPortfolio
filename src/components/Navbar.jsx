@@ -4,7 +4,7 @@ import CV from "../VictorJack_CV.pdf";
 function Navbar() {
   return (
     <div className="w-full absolute py-3 px-[5%] lg:px-[7%] z-20">
-      <div className="rounded-xl w-full p-3 transition-all duration-300 group flex justify-between">
+      <div className="2xl:container mx-auto rounded-xl w-full p-3 transition-all duration-300 group flex justify-between">
         <a
           href="/"
           className="p-2 font-bold text-xl lg:text-3xl text-blue-500 text-start hover:scale-125 transition-all duration-300 ease-in"

@@ -48,11 +48,11 @@ function Hero() {
 
   return (
     <div
-      className="flex relative flex-col justify-center min-h-[100vh] gap-4 pt-20 px-10 md:px-40"
+      className="flex relative flex-col justify-center gap-4 py-32 pt-20 px-10 md:px-40 overflow-x-hidden"
       style={divStyle}
       id="hero"
     >
-      <div className="flex flex-col justify-center content-center py-5 text-center mt-20">
+      <div className="2xl:container mx-auto relative flex flex-col justify-center content-center py-5 text-center mt-20">
         <h2 className="text-lg text-white ">
           Hi, my name is <br />{" "}
           <span className="text-6xl lg:text-[10rem] text-blue-500 font-extrabold">
@@ -90,12 +90,15 @@ function Hero() {
           </a>
         </div>
       </div>
-
       <div className="flex flex-col justify-end top-[40%] absolute bottom-0 left-0 lg:left-10">
         <p className="text-blue-500 rotate-90 mb-20 md:mb-28 text-xs md:text-xl">
           viktoh7351@gmail.com
         </p>
         <div className="w-[1px] h-[50px] md:h-[200px] border border-blue-500 mx-auto "></div>
+      </div>
+      <div className="absolute right-0 bottom-0 flex w-full justify-between flex-wrap overflow-hidden">
+        <h1 className="text-4xl lg:text-[7rem] opacity-30">FULLSTACK</h1>
+        <h1 className="ms-auto text-4xl lg:text-[7rem] opacity-30">DEVELOPER</h1>
       </div>
     </div>
   );

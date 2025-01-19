@@ -15,7 +15,6 @@ body {
     background-color: black;
 }
 
-/* WebKit browsers (Chrome, Safari, Edge) */
 ::-webkit-scrollbar {
     width: 12px;
 }

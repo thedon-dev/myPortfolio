@@ -1,6 +1,7 @@
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { motion } from "framer-motion";
 
 const Project = ({ data, index }) => {
   return (
@@ -27,17 +28,22 @@ const Project = ({ data, index }) => {
             <p key={index}>{tech}</p>
           ))}
         </div>
-        <a
+        <motion.a
+          whileHover={{ scale: 1.1 }}
           href={data.link}
           className="border rounded-full py-3 px-4 w-fit text-xs flex gap-2 content-center"
         >
           Visit Site
           <FontAwesomeIcon icon={faArrowRightLong} className="my-auto" />
-        </a>
+        </motion.a>
       </div>
-      <div className="lg:w-3/5 border rounded-lg overflow-hidden">
+      <motion.div
+        whileHover={{ scale: [1.0, 1.1, 1.0] }}
+        transition={{duration: 0.6}}
+        className="lg:w-3/5 border rounded-lg overflow-hidden"
+      >
         <img src={data.image} alt="" className="w-full" />
-      </div>
+      </motion.div>
     </div>
   );
 };
