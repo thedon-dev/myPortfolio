@@ -13,7 +13,7 @@ import {
 
 function Hero() {
   const divStyle = {
-    backgroundImage: `linear-gradient( 0deg, rgba(34, 33, 34, 0.8), rgba(30, 30, 31, 0.8)), url(${Pic1})`,
+    backgroundImage: `linear-gradient( 0deg, rgba(34, 33, 34, 0.85), rgba(30, 30, 31, 0.85)), url(${Pic1})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
@@ -96,9 +96,9 @@ function Hero() {
         </p>
         <div className="w-[1px] h-[50px] md:h-[200px] border border-blue-500 mx-auto "></div>
       </div>
-      <div className="absolute right-0 bottom-0 flex w-full justify-between flex-wrap overflow-hidden">
-        <h1 className="text-4xl lg:text-[7rem] opacity-30">FULLSTACK</h1>
-        <h1 className="ms-auto text-4xl lg:text-[7rem] opacity-30">DEVELOPER</h1>
+      <div className="absolute right-0 bottom-0 flex w-full justify-between px-[5%] lg-[8%]">
+        <h1 className="text-[2.5rem] lg:text-[7rem] opacity-20">FULLSTACK</h1>
+        <h1 className="text-[2.5rem] lg:text-[7rem] opacity-20">DEVELOPER</h1>
       </div>
     </div>
   );
