@@ -67,7 +67,7 @@ function Hero() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
-              className="text-[4rem] lg:text-[7rem] text-nowrap border font-bold text-blue-900 mainFont"
+              className="text-[4rem] lg:text-[7rem] text-nowrap font-bold text-blue-900 mainFont"
             >
               Victor Jack
             </motion.h1>
