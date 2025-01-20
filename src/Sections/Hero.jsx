@@ -67,7 +67,7 @@ function Hero() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
-              className="text-[5rem] lg:text-[7rem] font-bold text-blue-900 mainFont"
+              className="text-[4rem] lg:text-[7rem] font-bold text-blue-900 mainFont"
             >
               Victor Jack
             </motion.h1>
@@ -75,7 +75,7 @@ function Hero() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
-              className="text-white w-4/5 secondFont lg:text-lg"
+              className="text-white w-4/5 secondFont text-sm lg:text-lg"
             >
               {" "}
               I am a software Engineer, a true definition of a Philomath and a
@@ -86,9 +86,9 @@ function Hero() {
             <div className="mt-10 flex gap-3 mainFont">
               <div className="relative">
                 <motion.a
-                initial={{x: -100}}
-                animate={{x: 0}}
-                transition={{duration: 1}}
+                  initial={{ x: -100 }}
+                  animate={{ x: 0 }}
+                  transition={{ duration: 1 }}
                   href="mailto:viktoh7351@gmail.com?subject=Hiring%20Opportunity"
                   className="flex items-center gap-2 border-2 h-fit bg-blue-900 text-white border-blue-900 text-sm py-2 px-5 rounded"
                 >
@@ -97,9 +97,9 @@ function Hero() {
               </div>
               <div className="flex relative items-center">
                 <motion.a
-                initial={{y: 30}}
-                animate={{y: 0}}
-                transition={{duration: 1}}
+                  initial={{ y: 30 }}
+                  animate={{ y: 0 }}
+                  transition={{ duration: 1 }}
                   href={CV}
                   download
                   className="flex items-center gap-2 border-2 h-fit border-blue-900 text-blue-900 text-sm py-2 px-5 rounded hover:bg-blue-900 hover:text-white transition-all duration-300"
@@ -114,8 +114,9 @@ function Hero() {
               </div>
             </div>
           </div>
-          <div className="flex items-center flex-row-reverse gap-5 top-[80%] -bottom-[10%] absolute left-0">
-            <p className="text-blue-500 secondFont text-xs md:text-xl">
+          ð
+          <div className="flex items-center flex-row-reverse gap-5 top-[80%] -bottom-[16%] lg:-bottom-[10%] absolute left-0">
+            <p className="text-blue-500 secondFont text-sm md:text-xl">
               viktoh7351@gmail.com
             </p>
             <div className="h-[1px] w-[50px] md:w-[200px] border border-blue-500 mx-auto "></div>
@@ -123,10 +124,45 @@ function Hero() {
         </div>
         <div className="lg:block mt-10 lg:mt-0 col-span-2 lg:col-span-1 p-5 lg:p-10">
           <div
-            className="rounded-2xl overflow-hidden h-[20rem] lg:h-full "
+            className="relative rounded-2xl h-[20rem] lg:h-full "
             style={divStyle}
           >
-            {/* <img src={Pic1} alt="" className="object-fit" /> */}
+            <div className="z-20 absolute top-10 -left-8 lg:-left-12 bg-blue-700 w-fit p-3 gap-2 flex items-center text-white rounded-full h-fit">
+              <img
+                src="https://cdn.simpleicons.org/react"
+                alt="object-fit"
+                className="w-7 h-7 lg:w-10 lg:h-10"
+              />
+
+              <p className="lg:text-2xl mainFont">ReactJS</p>
+            </div>
+            <div className="z-20 absolute top-10 -right-8 lg:-right-12 bg-blue-700 w-fit p-3 gap-2 flex items-center text-white rounded-full h-fit">
+              <img
+                src="https://cdn.simpleicons.org/tailwindcss"
+                alt="object-fit"
+                className="w-7 h-7 lg:w-10 lg:h-10"
+              />
+
+              <p className="lg:text-2xl mainFont">TailwindCSS</p>
+            </div>
+            <div className="z-20 absolute bottom-10 -left-8 lg:-left-12 bg-blue-700 w-fit p-3 gap-2 flex items-center text-white rounded-full h-fit">
+              <img
+                src="https://cdn.simpleicons.org/express"
+                alt="object-fit"
+                className="w-7 h-7 lg:w-10 lg:h-10"
+              />
+
+              <p className="lg:text-2xl mainFont">ExpressJS</p>
+            </div>
+            <div className="z-20 absolute bottom-10 -right-8 lg:-right-12 bg-blue-700 w-fit p-3 gap-2 flex items-center text-white rounded-full h-fit">
+              <img
+                src="https://cdn.simpleicons.org/mongodb"
+                alt="object-fit"
+                className="w-7 h-7 lg:w-10 lg:h-10"
+              />
+
+              <p className="lg:text-2xl mainFont">MongoDB</p>
+            </div>
           </div>
         </div>
       </div>

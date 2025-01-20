@@ -26,7 +26,7 @@ function Gallery() {
       <div className="2xl:container mx-auto">
         <div className="flex content-center justify-start">
           <div className="w-[80px] h-[1px] border border-blue-500 my-auto me-5"></div>
-          <h4 className="text-blue-500 text-lg lg:text-5xl">Gallery</h4>
+          <h4 className="text-blue-500 text-3xl mainFont lg:text-5xl">Gallery</h4>
         </div>
 
         <div className="flex flex-col gap-4 mt-14">
