@@ -39,7 +39,7 @@ function About() {
             <br />
             <div>
               <p>Technologies I use: </p>
-              <div className="grid grid-cols-3 md:grid-cols-4 gap-y-10 mt-10">
+              <div className="flex flex-wrap gap-4 mainFont mt-10">
                 {languages.map((language, index) => (
                   <Language
                     key={index}
@@ -53,7 +53,7 @@ function About() {
         </div>
         <div className="grid place-content-center px-10">
           <div className="border-4 rounded-lg border-dotted border-white p-3">
-            <div className="h-[300px] w-[300px] lg:h-[500px] lg:w-[500px] overflow-hidden group">
+            <div className="h-[350px] w-[350px] lg:h-[500px] lg:w-[500px] overflow-hidden group">
               <img
                 src={Pic14}
                 alt=""

@@ -32,6 +32,10 @@ const languages = [
         imgUrl: 'https://cdn.simpleicons.org/express'
     },
     {
+        name: 'MongoDB',
+        imgUrl: 'https://cdn.simpleicons.org/mongodb'
+    },
+    {
         name: 'Python',
         imgUrl: 'https://cdn.simpleicons.org/python'
     },

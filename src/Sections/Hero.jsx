@@ -23,36 +23,28 @@ function Hero() {
     backgroundPosition: "center",
   };
 
-  const links = [
+  const lang = [
     {
-      icon: faFacebook,
-      link: "https://www.facebook.com/victor.jack.7351",
+      langName: 'ReactJS',
+      linkName: 'react'
     },
     {
-      icon: faGithub,
-      link: "https://github.com/thedon-dev",
+      langName: 'TailwindCSS',
+      linkName: 'react'
     },
     {
-      icon: faTiktok,
-      link: "https://www.tiktok.com/@victorwritecodes",
+      langName: 'ExpressJS',
+      linkName: 'react'
     },
     {
-      icon: faXTwitter,
-      link: "https://x.com/iamvictorjack",
-    },
-    {
-      icon: faLinkedin,
-      link: "https://www.linkedin.com/in/victorjackadokiye?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    },
-    {
-      icon: faYoutube,
-      link: "https://www.youtube.com/@iamvictorjack",
+      langName: 'MongoDb',
+      linkName: 'react'
     },
   ];
 
   return (
     <>
-      <div className="relative px-[5%] lg:px-[8%] grid grid-cols-2 max-w-[2000px] py-16 lg:py-32 overflow-y-hidden">
+      <div className="mx-auto relative px-[5%] lg:px-[8%] grid grid-cols-2 max-w-[2000px] py-16 lg:py-32 overflow-y-hidden">
         <div className="w-full col-span-2 lg:col-span-1">
           <div className=" text-start pe-5 mt-24 lg:mt-10 text-white">
             <motion.span
@@ -127,7 +119,7 @@ function Hero() {
             className="relative rounded-2xl h-[20rem] lg:h-full "
             style={divStyle}
           >
-            <div className="z-20 absolute top-10 -left-8 lg:-left-12 bg-blue-700 w-fit p-3 gap-2 flex items-center text-white rounded-full h-fit">
+            <div className="z-20 absolute top-10 -left-8 lg:-left-12 bg-white w-fit p-3 gap-2 flex items-center text-blue-900 rounded-full h-fit">
               <img
                 src="https://cdn.simpleicons.org/react"
                 alt="object-fit"
@@ -136,7 +128,7 @@ function Hero() {
 
               <p className="lg:text-2xl mainFont">ReactJS</p>
             </div>
-            <div className="z-20 absolute top-10 -right-8 lg:-right-12 bg-blue-700 w-fit p-3 gap-2 flex items-center text-white rounded-full h-fit">
+            <div className="z-20 absolute top-10 -right-8 lg:-right-12 bg-white w-fit p-3 gap-2 flex items-center text-blue-900 rounded-full h-fit">
               <img
                 src="https://cdn.simpleicons.org/tailwindcss"
                 alt="object-fit"
@@ -145,7 +137,7 @@ function Hero() {
 
               <p className="lg:text-2xl mainFont">TailwindCSS</p>
             </div>
-            <div className="z-20 absolute bottom-10 -left-8 lg:-left-12 bg-blue-700 w-fit p-3 gap-2 flex items-center text-white rounded-full h-fit">
+            <div className="z-20 absolute bottom-10 -left-8 lg:-left-12 bg-white w-fit p-3 gap-2 flex items-center text-blue-900 rounded-full h-fit">
               <img
                 src="https://cdn.simpleicons.org/express"
                 alt="object-fit"
@@ -154,7 +146,7 @@ function Hero() {
 
               <p className="lg:text-2xl mainFont">ExpressJS</p>
             </div>
-            <div className="z-20 absolute bottom-10 -right-8 lg:-right-12 bg-blue-700 w-fit p-3 gap-2 flex items-center text-white rounded-full h-fit">
+            <div className="z-20 absolute bottom-10 -right-8 lg:-right-12 bg-white w-fit p-3 gap-2 flex items-center text-blue-900 rounded-full h-fit">
               <img
                 src="https://cdn.simpleicons.org/mongodb"
                 alt="object-fit"
