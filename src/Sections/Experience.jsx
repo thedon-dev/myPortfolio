@@ -16,7 +16,7 @@ function Experience() {
         <div className="text-white">
           <div className="flex content-center justify-start">
             <div className="w-[80px] h-[1px] border border-blue-400 my-auto me-5"></div>
-            <h4 className="text-blue-500 text-lg lg:text-5xl">Experience</h4>
+            <h4 className="text-blue-500 text-lg lg:text-5xl mainFont">Experience</h4>
           </div>
         </div>
 
@@ -31,7 +31,7 @@ function Experience() {
                   } border-l-4 hidden lg:flex p-4 cursor-pointer gap-3 content-center`}
                   onClick={() => setCurrentWork(index)}
                 >
-                  <p className="font-semibold text-sm text-white w-[85%]">
+                  <p className="font-semibold text-sm text-white w-[85%] mainFont">
                     {work.name}
                   </p>
                   <FontAwesomeIcon icon={faAngleRight} className="my-auto" />
@@ -41,7 +41,7 @@ function Experience() {
 
             <div className="grid grid-cols-2 lg:hidden border">
               <div className="border-r">
-                <p className="font-semibold text-white text-sm p-3">
+                <p className="font-semibold text-white text-sm p-3 secondFont">
                   {ExperienceDetails[currentWork].name}
                 </p>
               </div>
@@ -54,10 +54,10 @@ function Experience() {
             </div>
             <div
               className={
-                "lg:px-5 min-h-[20rem] mt-8 lg:mt-0 w-full lg:w-[70%] text-white"
+                "lg:px-5 min-h-[20rem] mt-8 lg:mt-0 w-full lg:w-[70%] text-white secondFont"
               }
             >
-              <h1 className="text-2xl font-semibold">
+              <h1 className="text-2xl font-semibold mainFont">
                 {ExperienceDetails[currentWork].name}
                 <div className="w-[5%] h-1 bg-yellow-400 my-5"></div>
               </h1>

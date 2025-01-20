@@ -29,7 +29,7 @@ function Gallery() {
           <h4 className="text-blue-500 text-lg lg:text-5xl">Gallery</h4>
         </div>
 
-        <div className="flex flex-col gap-4 mt-20">
+        <div className="flex flex-col gap-4 mt-14">
           <div className="grid grid-rows-2 grid-cols-3 gap-3">
             {selectedImages.map((pic, index) => (
               <div

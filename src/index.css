@@ -1,34 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-    font-family: "Inconsolata", monospace;
-    font-weight: 700;
-    scroll-behavior: smooth;
+  /* font-family: "Inconsolata", monospace; */
+  /* font-family: "Concert One", serif; */
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+
+.mainFont {
+  font-family: "Concert One", serif;
+}
+
+.secondFont {
+  font-family: "Inconsolata", monospace;
 }
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
 ::-webkit-scrollbar {
-    width: 12px;
+  width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #1e3a8a;
+  background: #1e3a8a;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #3b82f6;
-    border-radius: 15px;
-    /* border: 3px solid #1e3a8a; */
+  background-color: #3b82f6;
+  border-radius: 15px;
+  /* border: 3px solid #1e3a8a; */
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+  background: #555;
 }

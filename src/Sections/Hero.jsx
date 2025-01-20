@@ -10,10 +10,14 @@ import {
   faLinkedin,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import CV from "../VictorJack_CV.pdf";
+import { HiDownload } from "react-icons/hi";
+import { CgArrowLongLeft } from "react-icons/cg";
+import { motion } from "framer-motion";
 
 function Hero() {
   const divStyle = {
-    backgroundImage: `linear-gradient( 0deg, rgba(34, 33, 34, 0.85), rgba(30, 30, 31, 0.85)), url(${Pic1})`,
+    backgroundImage: `linear-gradient( 0deg, rgba(34, 33, 34, 0.4), rgba(30, 30, 31, 0.4)), url(${Pic1})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
@@ -47,60 +51,86 @@ function Hero() {
   ];
 
   return (
-    <div
-      className="flex relative flex-col justify-center gap-4 py-32 pt-20 px-10 md:px-40 overflow-x-hidden"
-      style={divStyle}
-      id="hero"
-    >
-      <div className="2xl:container mx-auto relative flex flex-col justify-center content-center py-5 text-center mt-20">
-        <h2 className="text-lg text-white ">
-          Hi, my name is <br />{" "}
-          <span className="text-6xl lg:text-[10rem] text-blue-500 font-extrabold">
-            Victor Jack
-          </span>
-        </h2>
-        <p className="text-white mt-2 w-full lg:w-1/2 mx-auto text-base lg:text-lg">
-          I am a software Engineer, a true definition of a Philomath and a Tech
-          addict. I strive to bring innovative ideas to life. My goal is to
-          craft seamless digital experiences that not only meet but exceed
-          client expectations.
-        </p>
-        <div className="flex justify-center content-center p-5 gap-5 w-1/2 mx-auto mt-10">
-          {links.map((link, index) => (
-            <a href={link.link} className="hover:-mt-2 group" key={index}>
-              <FontAwesomeIcon
-                icon={link.icon}
-                size="lg"
-                className={`hover:cursor-pointer w-[20px] h-[20px] group-hover:w-[30px] group-hover:h-[30px] my-auto text-blue-500 transition-all duration-300`}
-                color=""
-              />
-            </a>
-          ))}
+    <>
+      <div className="relative px-[5%] lg:px-[8%] grid grid-cols-2 max-w-[2000px] py-16 lg:py-32 overflow-y-hidden">
+        <div className="w-full col-span-2 lg:col-span-1">
+          <div className=" text-start pe-5 mt-24 lg:mt-10 text-white">
+            <motion.span
+              initial={{ opacity: 0, x: -30 }}
+              animate={{ opacity: 1, x: [30, 10, 0] }}
+              transition={{ duration: 2 }}
+              className="text-white secondFont"
+            >
+              My Name Is
+            </motion.span>
+            <motion.h1
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }}
+              className="text-[5rem] lg:text-[7rem] font-bold text-blue-900 mainFont"
+            >
+              Victor Jack
+            </motion.h1>
+            <motion.p
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }}
+              className="text-white w-4/5 secondFont lg:text-lg"
+            >
+              {" "}
+              I am a software Engineer, a true definition of a Philomath and a
+              Tech addict. I strive to bring innovative ideas to life. My goal
+              is to craft seamless digital experiences that not only meet but
+              exceed client expectations.
+            </motion.p>
+            <div className="mt-10 flex gap-3 mainFont">
+              <div className="relative">
+                <motion.a
+                initial={{x: -100}}
+                animate={{x: 0}}
+                transition={{duration: 1}}
+                  href="mailto:viktoh7351@gmail.com?subject=Hiring%20Opportunity"
+                  className="flex items-center gap-2 border-2 h-fit bg-blue-900 text-white border-blue-900 text-sm py-2 px-5 rounded"
+                >
+                  Hire Me
+                </motion.a>
+              </div>
+              <div className="flex relative items-center">
+                <motion.a
+                initial={{y: 30}}
+                animate={{y: 0}}
+                transition={{duration: 1}}
+                  href={CV}
+                  download
+                  className="flex items-center gap-2 border-2 h-fit border-blue-900 text-blue-900 text-sm py-2 px-5 rounded hover:bg-blue-900 hover:text-white transition-all duration-300"
+                >
+                  Download Resume
+                  <HiDownload color="" size={20} />
+                </motion.a>
+                <CgArrowLongLeft
+                  className="absolute -right-[4rem] my-auto"
+                  size={50}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center flex-row-reverse gap-5 top-[80%] -bottom-[10%] absolute left-0">
+            <p className="text-blue-500 secondFont text-xs md:text-xl">
+              viktoh7351@gmail.com
+            </p>
+            <div className="h-[1px] w-[50px] md:w-[200px] border border-blue-500 mx-auto "></div>
+          </div>
         </div>
-        <div className="w-full mt-10 flex justify-center">
-          <a
-            href="#about"
-            className="right-5 cursor-pointer lg:left-[48%] bottom-5 md:bottom-10 border-spacing-10 border-black w-[50px] h-[50px] md:w-[70px] md:h-[70px] border-dashed rounded-full border-[3px] flex justify-center content-center z-20"
+        <div className="lg:block mt-10 lg:mt-0 col-span-2 lg:col-span-1 p-5 lg:p-10">
+          <div
+            className="rounded-2xl overflow-hidden h-[20rem] lg:h-full "
+            style={divStyle}
           >
-            <FontAwesomeIcon
-              icon={faArrowDownLong}
-              size="1x"
-              className="my-auto w-10 animate-bounce text-black"
-            />
-          </a>
+            {/* <img src={Pic1} alt="" className="object-fit" /> */}
+          </div>
         </div>
       </div>
-      <div className="flex flex-col justify-end top-[40%] absolute bottom-0 left-0 lg:left-10">
-        <p className="text-blue-500 rotate-90 mb-20 md:mb-28 text-xs md:text-xl">
-          viktoh7351@gmail.com
-        </p>
-        <div className="w-[1px] h-[50px] md:h-[200px] border border-blue-500 mx-auto "></div>
-      </div>
-      <div className="absolute right-0 bottom-0 flex w-full justify-between px-[5%] lg-[8%]">
-        <h1 className="text-[2.5rem] lg:text-[7rem] opacity-20">FULLSTACK</h1>
-        <h1 className="text-[2.5rem] lg:text-[7rem] opacity-20">DEVELOPER</h1>
-      </div>
-    </div>
+    </>
   );
 }
 
