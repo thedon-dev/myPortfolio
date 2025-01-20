@@ -37,7 +37,7 @@ const Contact = () => {
       </div>
       <h1 className="text-4xl font-semibold text-center mainFont">Get in Touch</h1>
       <p className="text-center mt-5 secondFont">
-        I am open for freelance gigs, my inbox is always open. Whether you have
+        I am open for freelance projects, my inbox is always open. Whether you have
         a question, a project for me or just want to say hi, I’ll try my best to
         get back to you!
       </p>
