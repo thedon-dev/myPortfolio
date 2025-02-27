@@ -3,6 +3,7 @@ import XploreAfrica from "../assets/ProjectImages/XploreAfrica.png";
 import NgGameDev from "../assets/ProjectImages/NGGameDev.png";
 import BabaAI from "../assets/ProjectImages/BabaAI.png";
 import jpegbyprince from "../assets/ProjectImages/jpegbyprince.png";
+import spaBooking from "../assets/ProjectImages/Spa-Booking.png";
 
 const projects = [
   {
@@ -19,6 +20,14 @@ const projects = [
     description: "XploreAfrica is a Software Development Agency.",
     technologies: ["ReactJS", "TailwindCSS"],
     link: "https://xploreafrica.vercel.app",
+  },
+  {
+    name: "Spa Booking System",
+    image: spaBooking,
+    description:
+      "The Spa Booking System is a full-stack web application that streamlines spa appointment scheduling for both customers and spa administrators. This system allows users to seamlessly book spa services, receive automated email confirmations, and store bookings in a Google Spreadsheet for easy admin access.",
+    technologies: ["ReactJS", "TailwindCSS", "ExpressJS", "MongoDB"],
+    link: "https://salon-site-lilac.vercel.app",
   },
   {
     name: "NG.GameDev",
