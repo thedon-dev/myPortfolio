@@ -25,26 +25,26 @@ function Hero() {
 
   const lang = [
     {
-      langName: 'ReactJS',
-      linkName: 'react'
+      langName: "ReactJS",
+      linkName: "react",
     },
     {
-      langName: 'TailwindCSS',
-      linkName: 'react'
+      langName: "TailwindCSS",
+      linkName: "react",
     },
     {
-      langName: 'ExpressJS',
-      linkName: 'react'
+      langName: "ExpressJS",
+      linkName: "react",
     },
     {
-      langName: 'MongoDb',
-      linkName: 'react'
+      langName: "MongoDb",
+      linkName: "react",
     },
   ];
 
   return (
     <>
-      <div className="mx-auto relative px-[5%] lg:px-[8%] grid grid-cols-2 max-w-[2000px] py-16 lg:py-32 overflow-y-hidden">
+      <div className="mx-auto relative px-[5%] lg:px-[8%] grid grid-cols-2 max-w-[2000px] py-10 lg:py-32 overflow-y-hidden">
         <div className="w-full col-span-2 lg:col-span-1">
           <div className=" text-start pe-5 mt-24 lg:mt-10 text-white">
             <motion.span
