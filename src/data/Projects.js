@@ -4,6 +4,7 @@ import NgGameDev from "../assets/ProjectImages/NGGameDev.png";
 import BabaAI from "../assets/ProjectImages/BabaAI.png";
 import jpegbyprince from "../assets/ProjectImages/jpegbyprince.png";
 import spaBooking from "../assets/ProjectImages/Spa-Booking.png";
+import cafeSite from "../assets/ProjectImages/cafe-site.png";
 
 const projects = [
   {
@@ -37,14 +38,14 @@ const projects = [
     technologies: ["ReactJS", "TailwindCSS", "Express", "MongoDb"],
     link: "https://baba-frontend-react.onrender.com/",
   },
-  // {
-  //   name: "Coffee Shop Website",
-  //   image: BabaAI,
-  //   description:
-  //     "Baba's AI is an AI tool that helps you simplify task and boost productivity with adequate fluency in pidgin as well as your native tongue and English",
-  //   technologies: ["ReactJS", "TailwindCSS"],
-  //   link: "https://baba-frontend-react.onrender.com/",
-  // },
+  {
+    name: "Coffee Shop Website",
+    image: cafeSite,
+    description:
+      "A landing page for a cafe shop to display their services, informations and gallery",
+    technologies: ["ReactJS", "TypeScript", "TailwindCSS"],
+    link: "https://cafe-site-cyan.vercel.app",
+  },
   {
     name: "NG.GameDev",
     image: NgGameDev,

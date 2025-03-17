@@ -9,15 +9,14 @@ AOS.init();
 
 function About() {
   return (
-    <div
-      className="px-[5%] lg:px-[8%] py-20"
-      id="about"
-    >
+    <div className="px-[5%] lg:px-[8%] py-20" id="about">
       <div className="2xl:container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5">
-        <div className="my-20 text-white">
+        <div className=" text-white">
           <div className="flex content-center justify-start">
             <div className="w-[80px] h-[1px] border border-blue-500 my-auto me-5"></div>
-            <h4 className="text-blue-500 text-3xl lg:text-5xl mainFont">About Me</h4>
+            <h4 className="text-blue-500 text-3xl lg:text-5xl mainFont">
+              About Me
+            </h4>
           </div>
 
           <div className="mt-10 text-xs lg:text-base secondFont ">
