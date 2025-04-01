@@ -22,7 +22,7 @@ function Navbar() {
           <img
             src="https://cdn.simpleicons.org/github/white"
             alt=""
-            className="w-[30px]"
+            className="w-[30px] lg:w-[40px]"
           />
         </a>
       </div>

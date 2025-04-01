@@ -29,7 +29,7 @@ function About() {
             </p>
             <br />
             <p>
-              Fast forward to 4 years later (today) I've had the privilege to
+              Fast forward to 5 years later (today) I've had the privilege to
               work with multiple people across the Tech space including the game
               development industry. Building a game community has also exposed
               me to different skills that I didn't really expect to learn, like
