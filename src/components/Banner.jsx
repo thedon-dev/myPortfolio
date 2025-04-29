@@ -9,7 +9,7 @@ const Banner = () => {
           <p className="text-xl lg:text-2xl">Years Experience</p>
         </div>
         <div className="flex flex-col items-center mainFont rounded-full bg-white py-2 px-10">
-          <h2 className="text-5xl font-bold">12+</h2>
+          <h2 className="text-5xl font-bold">15+</h2>
           <p className="text-xl lg:text-2xl">Projects Completed</p>
         </div>
         {/* <div className="flex flex-col items-center mainFont">

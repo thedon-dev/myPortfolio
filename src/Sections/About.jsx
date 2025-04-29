@@ -21,19 +21,25 @@ function About() {
 
           <div className="mt-10 text-xs lg:text-base secondFont ">
             <p className="text-white">
-              My name is Victor Jack I am a problem solver, a leader and a
-              critical thinker, I enjoy turning complex problems into beautiful
-              designs. My tech journey started in 2020, with me messing around
-              different programming languages and making games. My passion for
-              games and trying to make one introduced me to the Tech space.
+              I'm Victor Jack, a problem solver, critical thinker, and leader
+              passionate about transforming complex challenges into elegant,
+              user-focused solutions. My journey in tech began in 2020 with a
+              deep curiosity for programming and a desire to create my own
+              games. That initial spark quickly evolved into a full-blown
+              passion for technology and innovation. Over the past five years,
+              I've had the privilege of collaborating with talented individuals
+              across the tech space, including the game development industry.
+              Alongside technical growth, building a game development community
+              has given me the opportunity to develop valuable skills beyond
+              code including leadership, communication, event organization, and
+              strategic networking.
             </p>
             <br />
             <p>
-              Fast forward to 5 years later (today) I've had the privilege to
-              work with multiple people across the Tech space including the game
-              development industry. Building a game community has also exposed
-              me to different skills that I didn't really expect to learn, like
-              communication, leadership, event organzation, networking, etc.
+              Today, I combine creativity with logic to build impactful
+              experiences whether it's through design, development, or leading
+              collaborative initiatives. I'm driven by a constant desire to
+              learn, improve, and contribute to meaningful projects in tech.
             </p>
             <br />
             <div>
