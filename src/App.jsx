@@ -7,12 +7,10 @@ import Projects from "./Sections/Projects";
 import Gallery from "./Sections/Gallery";
 import Contact from "./Sections/Contact";
 import Banner from "./components/Banner";
-import { Analytics } from "@vercel/analytics/next";
 
 function App() {
   return (
     <>
-      <Analytics />
       <Navbar />
       <Hero />
       <Banner />
