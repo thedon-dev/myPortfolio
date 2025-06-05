@@ -1,4 +1,11 @@
-import { faFacebook, faGithub, faLinkedin, faTiktok, faXTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import {
+  faFacebook,
+  faGithub,
+  faLinkedin,
+  faTiktok,
+  faXTwitter,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
@@ -30,16 +37,21 @@ const Contact = () => {
     },
   ];
   return (
-    <div className="text-white w-fll lg:w-2/3 mx-auto px-[5%] lg:px-[8%]">
+    <div
+      id="contact"
+      className="text-white w-fll lg:w-2/3 mx-auto px-[5%] lg:px-[8%]"
+    >
       <div className="flex content-center justify-center px-[8%] my-10">
         <div className="w-[80px] h-[1px] border border-blue-500 my-auto me-5"></div>
         <h4 className="text-blue-500 text-3xl mainFont lg:text-5xl">Contact</h4>
       </div>
-      <h1 className="text-4xl font-semibold text-center mainFont">Get in Touch</h1>
+      <h1 className="text-4xl font-semibold text-center mainFont">
+        Get in Touch
+      </h1>
       <p className="text-center mt-5 secondFont">
-        I am open for freelance projects, my inbox is always open. Whether you have
-        a question, a project for me or just want to say hi, I’ll try my best to
-        get back to you!
+        I am open for freelance projects, my inbox is always open. Whether you
+        have a question, a project for me or just want to say hi, I’ll try my
+        best to get back to you!
       </p>
 
       <div className="grid place-content-center">
