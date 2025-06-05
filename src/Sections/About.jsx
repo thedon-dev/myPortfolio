@@ -62,6 +62,7 @@ function About() {
               <img
                 src={Pic14}
                 alt=""
+                loading="lazy"
                 className="group-hover:scale-125 -translate-y-10 lg:-translate-y-20 transition-all duration-300"
               />
             </div>

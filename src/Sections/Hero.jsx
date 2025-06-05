@@ -106,7 +106,7 @@ function Hero() {
               </div>
             </div>
           </div>
-          ð
+
           <div className="flex items-center flex-row-reverse gap-5 top-[80%] -bottom-[16%] lg:-bottom-[10%] absolute left-0">
             <p className="text-blue-500 secondFont text-sm md:text-xl">
               viktoh7351@gmail.com
